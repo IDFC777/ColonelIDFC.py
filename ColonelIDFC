@@ -64,7 +64,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet MantrI V2 |lolcat'
+    banner='figlet MaNTRI V2 |lolcat'
     thisway=[0,2,6,4,8,10,12,14,16,18,20]
     thatway=[1,3,5,7,9,11,13,15,17,19]
     numbers=[]
@@ -91,9 +91,9 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : 🔴")
-                else:
                     print(newperiod+1," : 💚")
+                else:
+                    print(newperiod+1," : 🔴")
             else:
                 if current in numbers:
                     print(newperiod+1," : 💚")
@@ -120,9 +120,7 @@ def hero():
             y=False
         if (len(numbers)>11):
             clear()
-            system('figlet Thank you🤑!!')
-            print("Play on next specified time🤑!!")
-            print("-----------⏱️Current Time UP⏱️----------")
+            system('figlet ThankYou!!|lolcat') 
             sys.exit(" \n \n \n Contact on Telegram @IDFCMONEY")
             #print(numbers)
   
@@ -153,8 +151,8 @@ if(expirydate>today):
             period=372
             hero()
     else:
-        banner='figlet MANTRI V2 |lolcat'
-        print("Hi!! 🤑Thanks for buying the hack🤑")
+        banner='figlet MaNTRI V2 |lolcat'
+        print("Hi!! Thanks for buying the hack")
         print("----------⌛Your play time⌛----------")
         print("5 Sept 2021, 11:00 AM- 11:30 AM")
         print("5 Sept 2021, 02:00 PM- 02:30 PM")
@@ -168,13 +166,17 @@ if(expirydate>today):
 
 
 else:
-    banner='figlet MANTRI V2 |lolcat'
+    banner='figlet MaNTRI V2 |lolcat'
     system(banner)
     print("*---------*----------*-------------*----------*")
-    print("Your hack has expired--- Please contact")
-    print(" on telegram ----@IDFCMONEY for activating")
+    print("Hi There,IDFC Here")
+    print("You Have Purchaced Normal Hack")
+    print("To Buy Pro Contact on Telegram")
+    print("Enjoy Your hack --- Please contact")
+    print(" on telegram ----@IDFCMONEY for Further Purchace")
+    print("Or any help ")
     print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  7 Day (280 Games")
-    print(" 2.     3000 INR -------  30 Days(1200 Games")
+    print(" 1.     1000 INR -------  7 Day (30 Games")
+    print(" 2.     2000 INR -------  30 Days(120 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
